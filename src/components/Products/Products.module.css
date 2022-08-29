@@ -1,0 +1,50 @@
+.products h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.list_and_buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    flex-wrap: wrap;
+}
+
+
+
+.buttons button {
+    width: 90px;
+    height: 40px;
+    border: 2px solid rgb(202, 202, 202);
+    background-color: white;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+.buttons a {
+    color: rgb(77, 77, 77);
+    font-size: 0.8rem;
+    position: relative;
+    top: -2px
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.list li {
+    margin-right: 25px;
+}
+
+.list a {
+    color: black;
+}
+
+.list a:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
