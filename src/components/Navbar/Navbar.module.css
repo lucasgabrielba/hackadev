@@ -87,6 +87,31 @@ nav {
         transform: translateX(100%);
     }
 
+    .active {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 70vw;
+        height: 92vh;
+        background: rgb(43, 38, 60);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(0);
+    }
+
+    .active {
+        list-style: none;
+        display: flex;
+    }
+
+    .nav_list2 a {
+        color: black;
+    }
+
+    .nav_list2 a:hover {
+        color: rgb(95, 82, 142);
+    }
 
     a {
         color: white;
@@ -111,8 +136,5 @@ nav {
 
     }
 
-    .nav_list.active {
-        transform: translateX(0);
-    }
 
 }

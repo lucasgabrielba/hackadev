@@ -5,10 +5,13 @@ import { FaShoppingCart, FaSearch, FaBars, FaUser } from "react-icons/fa";
 function Navbar() {
   const [active, setActive] = useState(styles.nav_list);
   const navToggle = () => {
-    active === "styles.nav_list"
-      ? setActive(styles.nav_list.active)
+    active === styles.nav_list
+      ? setActive(styles.active)
       : setActive(styles.nav_list);
   };
+
+  console.log(typeof active);
+  console.log(active);
 
   return (
     <>
