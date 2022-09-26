@@ -1,15 +1,15 @@
 import styles from "./Product.module.css";
 import { FaHeart } from "react-icons/fa";
 
-function Product({ produto, preco, foto }) {
+function Product({ product, price, image, slug }) {
   return (
     <>
       <div class={styles.product}>
-        <a href="/">
+        <a href={slug}>
           <FaHeart className={styles.svg} />
-          <img src={foto} alt={produto} />
-          <p>{produto}</p>
-          <p className={styles.preco}>{preco}</p>
+          <img src={image} alt={product} />
+          <p>{product}</p>
+          <p className={styles.preco}>R{price}</p>
         </a>
       </div>
     </>

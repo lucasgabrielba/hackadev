@@ -4,10 +4,8 @@ import Boxes from "./components/Boxes/Boxes";
 import Products from "./components/Products/Products";
 import Shop from "./components/Shop/Shop";
 import Footer from "./components/Footer/Footer";
-import { useState } from "react";
 
 function App() {
-
   return (
     <>
       <Navbar />
