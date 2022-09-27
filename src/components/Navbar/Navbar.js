@@ -10,9 +10,6 @@ function Navbar() {
       : setActive(styles.nav_list);
   };
 
-  console.log(typeof active);
-  console.log(active);
-
   return (
     <>
       <header>

@@ -19,8 +19,6 @@ function Shop() {
       .catch((err) => console.log(err));
   }, []);
 
-  console.log(products);
-
   return (
     <div>
       <div className={styles.shop}>
@@ -33,11 +31,6 @@ function Shop() {
               slug={product.slug}
             />
           ))}
-      </div>
-      <div class={styles.load_more}>
-        <button>
-          <a href="/">LOAD MORE</a>
-        </button>
       </div>
     </div>
   );

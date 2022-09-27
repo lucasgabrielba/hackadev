@@ -33,7 +33,21 @@
     font-size: 1.3rem;
 }
 
-.svg {
+.notFav {
     position: absolute;
     margin: 20px;
+}
+
+.fav {
+    position: absolute;
+    margin: 20px;
+    color: red;
+}
+
+.notFav:hover {
+    font-size: 1.2em;
+}
+
+.fav:hover {
+    font-size: 1.2em;
 }
