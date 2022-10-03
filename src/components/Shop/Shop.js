@@ -6,7 +6,7 @@ function Shop() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3030/", {
+    fetch("https://my-simple-ecommerce-api.herokuapp.com/", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
