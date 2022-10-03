@@ -57,6 +57,7 @@ footer a {
 .newsletter button {
     margin-top: 20px;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 
 .footer2 {

@@ -38,6 +38,7 @@
     width: 130px;
     height: 40px;
     box-shadow: 0px 3px -5px rgba(0, 0, 0, 0.055);
+    cursor: pointer;
 
 }
 

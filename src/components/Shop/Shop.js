@@ -1,20 +1,16 @@
 import Product from "../Product/Product";
 import styles from "./Shop.module.css";
 import { useState, useEffect } from "react";
+import axios from "axios";
 
 function Shop() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("https://my-simple-ecommerce-api.herokuapp.com/", {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    })
-      .then((resp) => resp.json())
-      .then((data) => {
-        setProducts(data);
+    axios
+      .get("https://my-simple-ecommerce-api.herokuapp.com/")
+      .then((response) => {
+        setProducts(response.data);
       })
       .catch((err) => console.log(err));
   }, []);
